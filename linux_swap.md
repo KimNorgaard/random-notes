@@ -2,7 +2,7 @@
 
 ```
 grep CommitLimit /proc/meminfo
-grep Committet_AS /proc/meminfo
+grep Committed_AS /proc/meminfo
 ```
 
 # Prioritize OOM for processes
