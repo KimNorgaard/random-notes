@@ -14,7 +14,7 @@ Save output of master status.
 Dump databases:
 
 ```
-mysqldump -u root -p --all-databases > /some/place/dump.sql
+mysqldump -u root -p --single-transaction --opt --comments --hex-blob --dump-date --no-autocommit --all-databases > /some/place/dump.sql
 ```
 
 Release lock:
@@ -29,6 +29,7 @@ Copy dump to slave.
 
 ```
 STOP SLAVE;
+RESET MASTER;
 ```
 
 ```
