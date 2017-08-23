@@ -232,7 +232,7 @@ Find out what interface to use:
 ip a
 ````
 
-The write a netctl config:
+Then write a netctl config:
 
 ````
 vim /etc/netcfl/<if-name>
