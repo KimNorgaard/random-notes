@@ -113,8 +113,9 @@ A few notes:
    - dialog is needed by wifi-menu
    - wpa_supplicant and iw are needed for wireless networking
    - vim is always needed :)
+   - git for checking out dotfiles etc
 ````
-pacstrap /mnt base base-devel vim sudo zsh dialog wpa_supplicant iw
+pacstrap /mnt base base-devel vim sudo zsh dialog wpa_supplicant iw git
 ````
 
 ### Generate /etc/fstab on Target System
